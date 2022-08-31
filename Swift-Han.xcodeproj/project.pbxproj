@@ -28,6 +28,7 @@
 		63CEAF5B28BE47C800C351BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63CEAF6128BE47EC00C351BF /* #OneWeek - type.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#OneWeek - type.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		63CEAF6228BE4CEB00C351BF /* #Optional - important.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#Optional - important.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		63CEAF6328BFA31700C351BF /* #OneWeek - Operator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#OneWeek - Operator.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +71,7 @@
 				63CEAF5328BE47C700C351BF /* Swift_Han.xcdatamodeld */,
 				63CEAF6128BE47EC00C351BF /* #OneWeek - type.playground */,
 				63CEAF6228BE4CEB00C351BF /* #Optional - important.playground */,
+				63CEAF6328BFA31700C351BF /* #OneWeek - Operator.playground */,
 			);
 			path = "Swift-Han";
 			sourceTree = "<group>";
