@@ -66,6 +66,7 @@ class MyAge {
     }
 }
 
+
 //Any 와 AnyObject
 //AnyObject(protocol) -> 클래스 인스턴스 타입만 가능함
 //상속관계가 아니여도 타입 캐스팅이 가능함

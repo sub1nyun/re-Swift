@@ -31,7 +31,7 @@ let defaultColor = "black"
 var userDefinedColor : String? // nil
 
 var myColor = userDefinedColor ?? defaultColor
-print(myColor) //nil 이기때문에 edfaultColor의 값이 할당이 됨 -> 옵셔널 아님
+print(myColor) //nil 이기때문에 defaultColor의 값이 할당이 됨 -> 옵셔널 아님
 userDefinedColor = "red" //nil이 아님 -> 옵셔널(레드)
 myColor = userDefinedColor ?? defaultColor // nil이 아니면 옵셔널이 풀려서 myColor에 할당
 print(myColor) // nil이 아니므로 본래 값인 red가 할당 -> 옵셔널이 아님
