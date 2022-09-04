@@ -14,6 +14,7 @@
 		63CEAF5528BE47C700C351BF /* Swift_Han.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63CEAF5328BE47C700C351BF /* Swift_Han.xcdatamodeld */; };
 		63CEAF5728BE47C800C351BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CEAF5628BE47C800C351BF /* Assets.xcassets */; };
 		63CEAF5A28BE47C800C351BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CEAF5828BE47C800C351BF /* LaunchScreen.storyboard */; };
+		63CEAF6728C4E31A00C351BF /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CEAF6628C4E31A00C351BF /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		63CEAF6128BE47EC00C351BF /* #OneWeek - type.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#OneWeek - type.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		63CEAF6228BE4CEB00C351BF /* #Optional - important.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#Optional - important.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		63CEAF6328BFA31700C351BF /* #OneWeek - Operator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#OneWeek - Operator.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		63CEAF6628C4E31A00C351BF /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				63CEAF4A28BE47C700C351BF /* AppDelegate.swift */,
 				63CEAF4C28BE47C700C351BF /* SceneDelegate.swift */,
 				63CEAF4E28BE47C700C351BF /* ViewController.swift */,
+				63CEAF6628C4E31A00C351BF /* MyTableViewCell.swift */,
 				63CEAF5028BE47C700C351BF /* Main.storyboard */,
 				63CEAF5628BE47C800C351BF /* Assets.xcassets */,
 				63CEAF5828BE47C800C351BF /* LaunchScreen.storyboard */,
@@ -150,6 +153,7 @@
 				63CEAF4F28BE47C700C351BF /* ViewController.swift in Sources */,
 				63CEAF5528BE47C700C351BF /* Swift_Han.xcdatamodeld in Sources */,
 				63CEAF4B28BE47C700C351BF /* AppDelegate.swift in Sources */,
+				63CEAF6728C4E31A00C351BF /* MyTableViewCell.swift in Sources */,
 				63CEAF4D28BE47C700C351BF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
