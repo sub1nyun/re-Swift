@@ -19,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		63900E1328C6262D00531557 /* #Method and Closure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#Method and Closure.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		63900E1428C8F5C700531557 /* #Closure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#Closure.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		63CEAF4728BE47C700C351BF /* Swift-Han.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Han.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CEAF4A28BE47C700C351BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63CEAF4C28BE47C700C351BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +80,7 @@
 				63CEAF6328BFA31700C351BF /* #OneWeek - Operator.playground */,
 				63CEAF6A28C4F0EA00C351BF /* #OneWeek - 제어.playground */,
 				63900E1328C6262D00531557 /* #Method and Closure.playground */,
+				63900E1428C8F5C700531557 /* #Closure.playground */,
 			);
 			path = "Swift-Han";
 			sourceTree = "<group>";
