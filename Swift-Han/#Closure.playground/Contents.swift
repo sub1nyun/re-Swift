@@ -1,4 +1,5 @@
 import UIKit
+import Darwin
 
 //익명함수 -> 이름 없는 함수
 //자바의 람다
@@ -32,3 +33,12 @@ func someFun(cl: () -> Void) {
 //trailing closure 사용
 //someFun() {
 
+func minus(a : Int, b : Int) -> Int {
+    return (a+b)
+}
+
+let minu = { (a : Int, b : Int) -> Int in return (a-b) }
+print(minu(10, 20))
+var testMinusInt = minu(10, 20)
+type(of: testMinusInt)
+print(testMinusInt)
