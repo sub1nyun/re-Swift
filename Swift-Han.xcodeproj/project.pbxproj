@@ -18,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6311C2DF28D7717F00615EF6 /* #Inheritance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#Inheritance.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		63900E1328C6262D00531557 /* #Method and Closure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#Method and Closure.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		63900E1428C8F5C700531557 /* #Closure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#Closure.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		63CEAF4728BE47C700C351BF /* Swift-Han.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Han.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +84,7 @@
 				63900E1328C6262D00531557 /* #Method and Closure.playground */,
 				63900E1428C8F5C700531557 /* #Closure.playground */,
 				63E60EA128D36F2100E358A4 /* #Class.playground */,
+				6311C2DF28D7717F00615EF6 /* #Inheritance.playground */,
 			);
 			path = "Swift-Han";
 			sourceTree = "<group>";
