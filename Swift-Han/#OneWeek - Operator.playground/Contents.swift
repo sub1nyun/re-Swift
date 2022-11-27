@@ -64,6 +64,15 @@ var z : Int? = x as? Int // 결과가 옵셔널형으로 나오기때문에 옵�
 print(x, type(of: x))
 print(y, type(of: y))
 print(z, type(of: z))
+var t = z!
+type(of: t)
+
+if let tt = z {
+    type(of: z)
+    print("dd")
+}else {
+    print("ss")
+}
 
 // 타입 검사 is
 //객체가 클래스의 인스턴스인지 검사
@@ -74,12 +83,14 @@ class A {
 }
 var a : A = A()
 if a is A {
-    print("ㅇㅇ")
+    print("ww")
 }
 
 if a === A.self {
     print("ㅇㅇ")
-} else {
+} else if a is A {
     print("ㄴㄴ")
+} else {
+    print("엘스임!")
 }
 

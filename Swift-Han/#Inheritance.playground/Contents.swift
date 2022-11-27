@@ -41,7 +41,7 @@ class Student : Man {
 
 var kim : Man = Man(age: 10, weight: 20.5)
 kim.display()
-var lee : Student = Student(age: 20, weight: 65.2)
+var lee : Student = Student(age: 20, weight: 65.2) 
 lee.display()
 print(lee.age)
 

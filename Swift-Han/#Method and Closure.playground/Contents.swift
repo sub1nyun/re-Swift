@@ -34,6 +34,7 @@ func add3(_ x: Int, _ y : Int) -> Int { // 매개변수명 생략
 print(add3(10, 20)) //편해보이지만 거의 사용하지 않는 방법
 
 func add4(_ x:Int, with y:Int) -> Int { //첫번째 매개변수명만 생략하는 경우 -> 오브제특씨 방법 가장 많이 씀
+    print("이거 머임")
     print(#function) //함수명 리터럴
     return x+y
 }

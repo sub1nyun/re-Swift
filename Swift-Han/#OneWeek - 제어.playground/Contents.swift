@@ -8,6 +8,22 @@ for index in 1...5 {
     print(index)
 }
 
+for num in 1...5 {
+    for _ in 1...num {
+        print("*", terminator: "")
+    }
+    print()
+}
+print("새줄")
+
+for num2 in 1...5 {
+    for _ in stride(from: 5, through: num2, by: -1) {
+        print("*", terminator: "")
+    }
+    print()
+}
+
+
 for _ in 1...5 {
     print("_ 언더스코어로 생략이 가능함")
 }
@@ -72,17 +88,17 @@ func printName(firstName : String, lastName:String?) {
     if let lName = lastName { //옵셔널 바인딩
         print(lName, firstName)
     } else {
-        print("성 없음")
+        print("이프 : 성 없음")
     }
     //guard let
     guard let lName = lastName else { //옵셔널 변수가 값이 없다면
-        print("성 없음") //없다면 실행 (거짓일때 하고 싶은 문장)
+        print("가드 : 성 없음") //없다면 실행 (거짓일때 하고 싶은 문장)
         return //없다면 함수가 바로 여기서 끝남 -> 탈출
     }
     print(lName,firstName) //guard에서 사용한 지역변수를 밖에서도 사용이 가능함 (참일때 사용할 문장)
 }
 
-printName(firstName: "수빈", lastName: "윤")
+printName(firstName: "수빈", lastName:nil)
 
 //switch 표현식
 //case match1 :

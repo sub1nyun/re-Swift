@@ -8,6 +8,10 @@ import Darwin
 func add(x : Int, y : Int) -> Int {
     return x+y
 }
+
+let addTest = { (a : Int, b : Int) -> Int in return(a+b) }
+print(addTest(3,5))
+
 //클로저로 변경 -> func add 생략
 let add1 = { (x : Int, y :Int) -> Int in return(x+y) } //이름이 없어서 상수나 변수에 할당함
 print(add1(10, 20)) //x:10 , y : 20 할 필요 없음

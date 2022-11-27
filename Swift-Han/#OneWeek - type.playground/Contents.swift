@@ -11,11 +11,22 @@ import UIKit
 //튜플의 요소들은 여러 다른 방법으로 접근이 가능함
 //특정 튜플 값은 인덱스 위치를 참조하면 간단하게 접근
 let myTuple = (10, 12.1, message : "Hi") // 세가지 값을 하나로 묶어서 보관함
+
+let testMyTuple = (cafe : "Starbucks", coffee : "americano", 4000)
+print(testMyTuple)
+
+var myCoffee = testMyTuple.coffee
+print(myCoffee)
+
 var myString = myTuple.2
 print(myString)
+
 let (myInt, myFloat, meString) = myTuple
 print(myTuple.0)
 type(of: myTuple)
+print(myFloat)
+print(myTuple.1)
+var t = myTuple.1
 
 // _ 언더바가 아닌 언더스코어라고 말하며 생략의 의미를 갖고 있음
 var (meInt, _, eeString ) = myTuple //12.1 은 무시
