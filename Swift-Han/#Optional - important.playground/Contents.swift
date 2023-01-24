@@ -69,7 +69,6 @@ class MyAge {
     }
 }
 
-
 //Any 와 AnyObject
 //AnyObject(protocol) -> 클래스 인스턴스 타입만 가능함
 //상속관계가 아니여도 타입 캐스팅이 가능함
@@ -80,5 +79,6 @@ class MyAge {
 //Any -> 모두 가능함
 //클래스, 구조체, 열거형, 함수타입도 가능함
 
+// 플러터 연결 테스트하기 
 
 

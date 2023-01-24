@@ -12,6 +12,15 @@ func sayHello() -> Void { // -> Void 생략이 가능함
     print("Hello")
 }
 
+func sayVline() -> Void {
+    sayHello()
+    print("옥수수 수염차 편의점에서 천원")
+}
+
+sayVline()
+
+
+
 sayHello() //호출
 
 func add(x : Int, y :Int) -> Int { //Int형 리턴
